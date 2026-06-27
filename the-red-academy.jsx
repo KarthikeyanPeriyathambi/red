@@ -24,8 +24,8 @@ export const TECH = [
   { name: "GraphQL", color: "#E10098", dark: "#1a001a", icon: "◎" },
   { name: "Docker", color: "#2496ED", dark: "#0d1b2a", icon: "🐳" },
   { name: "Figma", color: "#F24E1E", dark: "#1a0a00", icon: "✦" },
-  { name: "Google", color: "#4285F4", dark: "#fff", icon: "G" },
-  { name: "Vue.js", color: "#42b883", dark: "#1a1a1a", icon: "◐" },
+  // { name: "Google", color: "#4285F4", dark: "#fff", icon: "G" },
+  // { name: "Vue.js", color: "#42b883", dark: "#1a1a1a", icon: "◐" },
 ];
 
 /* ─── TECH ICON: inline SVG letter badge ─── */
