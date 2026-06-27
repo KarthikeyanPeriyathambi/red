@@ -133,7 +133,7 @@ export default function App() {
             </div>
             <p className="text-sm text-gray-400 leading-relaxed max-w-xs mb-5">Full-service digital agency in Puducherry. We build websites, apps and digital marketing campaigns that grow your business.</p>
             <div className="flex gap-3">
-              {[["in","LinkedIn","#0A66C2"],["𝕏","Twitter","#000"],["📷","Instagram","#E4405F"]].map(([s,n,c]) => (
+              {[["in", "LinkedIn", "#0A66C2"], ["𝕏", "Twitter", "#000"], ["📷", "Instagram", "#E4405F"]].map(([s, n, c]) => (
                 <button key={n} title={n} className="w-10 h-10 rounded-xl bg-gray-800 flex items-center justify-center text-sm font-bold hover:scale-110 transition-all"
                   style={{ color: c }}
                   onMouseEnter={(e) => (e.currentTarget.style.background = c)}
@@ -156,8 +156,8 @@ export default function App() {
             <p className="text-white font-bold mb-4 text-sm">Contact</p>
             <div className="space-y-3 text-sm text-gray-500">
               <p className="leading-relaxed">61, Pondy Villupuram Mainroad, Thatanchavady, Puducherry 605110</p>
-              <p>📞 091235 03480</p>
-              <p>📞 9344225141</p>
+              <p>📞 +91 91235 03480</p>
+              <p>📞 +91 93442 25141</p>
               <a href="mailto:admin@theredacademy.in" className="text-red-400 hover:text-red-300 block">✉ admin@theredacademy.in</a>
             </div>
           </div>
