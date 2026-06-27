@@ -1,19 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import LOGO_IMG from "./src/assets/logo.png";
-import adinin from "./src/assets/adinin.png";
-import bees2v from "./src/assets/bees2v.png";
-import cb_products from "./src/assets/cb_products.png";
-import cbeezai from "./src/assets/cbeezai.png";
-import healix_conf from "./src/assets/healix.png";
-import healix_dash from "./src/assets/healix_dash.png";
-import jeevan from "./src/assets/jeevan.png";
-import hr360 from "./src/assets/hr360.png";
-import css from "./src/assets/css.png";
-import luca from "./src/assets/luca.png";
-import lepondy from "./src/assets/lepondy.png";
-import svcet from "./src/assets/svcet.png";
-import svmc from "./src/assets/svmc.png";
-import cloudbees from "./src/assets/cloudbees.png";
 
 
 
@@ -168,9 +154,9 @@ export const WHY_US = [
 ];
 
 export const PACKAGES = [
-  { name: "Basic", price: "₹10,000 – ₹12,000", sub: "Static Website", features: ["Up to 5 pages", "Mobile responsive", "Contact form", "Basic SEO", "1-month support", "Fast delivery"], popular: false },
-  { name: "Standard", price: "₹12,000 – ₹15,000", sub: "Multi-Page Website", features: ["10–15 pages", "CMS / WordPress", "Mobile responsive", "Advanced SEO", "3-month support", "Social media setup", "WhatsApp integration"], popular: true },
-  { name: "Advanced", price: "Client's Budget", sub: "Custom Project", features: ["Fully custom scope", "Web app / E-commerce", "Custom UI/UX design", "Performance optimisation", "6-month support", "Digital marketing", "Priority support"], popular: false },
+  // { name: "Basic", price: "₹10,000 – ₹12,000", sub: "Static Website", features: ["Up to 5 pages", "Mobile responsive", "Contact form", "Basic SEO", "1-month support", "Fast delivery"], popular: false },
+  { name: "Client's Budget", sub: "Custom Project", features: ["Fully custom scope", "Web app / E-commerce", "Custom UI/UX design", "Performance optimisation", "Mobile responsive", "6-month support", "Fast delivery", "Digital marketing", "Priority support"], popular: false },
+
 ];
 
 export const TEAM = [
