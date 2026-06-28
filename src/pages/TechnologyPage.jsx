@@ -23,12 +23,12 @@ export function TechnologyPage() {
       </div>
 
       {/* Dual marquee */}
-      <section className="py-10 bg-gray-950 overflow-hidden">
+      {/* <section className="py-10 bg-gray-950 overflow-hidden">
         <TechMarquee />
         <div className="mt-3">
           <TechMarquee reverse />
         </div>
-      </section>
+      </section> */}
 
       {/* Tech grid with real logos */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16" ref={ref}>
@@ -55,7 +55,7 @@ export function TechnologyPage() {
         {/* Category cards with images */}
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            ["tech-hero","🎨 Frontend","React.js, Next.js, Vue.js, TailwindCSS, TypeScript, HTML5 — UIs that are fast, accessible and visually sharp."],
+            ["tech-hero","🎨 Frontend","React.js, Next.js, TailwindCSS, TypeScript, HTML5 — UIs that are fast, accessible and visually sharp."],
             ["tech2","⚙️ Backend","Node.js, Express, REST APIs, GraphQL, PHP/WordPress — rock-solid server-side architecture and scalable APIs."],
             ["tech3","☁️ DB & Cloud","MongoDB, PostgreSQL, MySQL, Firebase, AWS, Vercel, Docker — scalable infrastructure for any workload size."],
           ].map(([seed,t,d])=>(

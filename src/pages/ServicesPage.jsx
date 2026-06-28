@@ -9,7 +9,7 @@ export function ServicesPage({ go }) {
         <div className="relative z-10">
           <p className="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">What We Do</p>
           <h1 className="text-4xl sm:text-5xl font-black text-white mb-4">Our Services</h1>
-          <p className="text-gray-400 max-w-lg mx-auto px-4">End-to-end digital services — from strategy and design to development and marketing.</p>
+          <p className="text-gray-400 max-w-lg mx-auto px-4">End-to-End digital services — from strategy and design to development and marketing.</p>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
@@ -56,9 +56,9 @@ export function ServicesPage({ go }) {
         {/* Packages */}
         <div className="mt-20">
           <h3 className="text-2xl font-black text-gray-900 text-center mb-10">Service Packages</h3>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="items-center flex w-full justify-center gap-6">
             {PACKAGES.map(pkg=>(
-              <div key={pkg.name} className={`rounded-3xl p-7 border-2 hover:shadow-xl transition-all ${pkg.popular?"border-red-500 bg-red-50":"border-gray-200 bg-white"}`}>
+              <div key={pkg.name} className={`rounded-3xl max-w-md w-full p-7 border-2 hover:shadow-xl transition-all ${pkg.popular?"border-red-500 bg-red-50":"border-gray-200 bg-white"}`}>
                 {pkg.popular && <div className="inline-block bg-red-600 text-white text-xs font-black px-3 py-1 rounded-full mb-4">⭐ MOST POPULAR</div>}
                 <p className="text-sm font-bold uppercase tracking-widest mb-1 text-gray-500">{pkg.name}</p>
                 <p className="text-xs font-semibold text-gray-400 mb-2">{pkg.sub}</p>

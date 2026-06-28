@@ -95,7 +95,7 @@ export default function App() {
           </button>
         </div>
         {menuOpen && (
-          <div className="lg:hidden bg-white/98 backdrop-blur border-t border-gray-100 px-4 pb-4">
+          <div className="lg:hidden bg-white/95 backdrop-blur-lg border-t border-gray-100 px-4 pb-4">
             {NAV_ITEMS.map((n) => (
               <button
                 key={n}
@@ -155,7 +155,7 @@ export default function App() {
           <div>
             <p className="text-white font-bold mb-4 text-sm">Contact</p>
             <div className="space-y-3 text-sm text-gray-500">
-              <p className="leading-relaxed">61, Pondy Villupuram Mainroad, Thatanchavady, Puducherry 605110</p>
+              <p className="leading-relaxed">No:61, Pondy Villupuram Mainroad, Thatanchavady, Puducherry 605110</p>
               <p>📞 +91 91235 03480</p>
               <p>📞 +91 93442 25141</p>
               <a href="mailto:admin@theredacademy.in" className="text-red-400 hover:text-red-300 block">✉ admin@theredacademy.in</a>

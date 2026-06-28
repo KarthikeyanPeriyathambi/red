@@ -20,11 +20,11 @@ export function ContactPage() {
           <div className="lg:col-span-2 space-y-5">
             <h3 className="font-black text-gray-900 text-xl mb-6">Get in Touch</h3>
             {[
-              ["icon1", "Address", "61, Pondy Villupuram Mainroad, Thatanchavady, Villianur, Puducherry 605110"],
+              ["icon1", "Address", "No:61, Pondy Villupuram Mainroad, Thatanchavady, Villianur, Puducherry 605110"],
               ["phone1", "Phone 1", "+91 91235 03480"],
               ["phone2", "Phone 2", "+91 93442 25141"],
-              ["email", "Email", "[EMAIL_ADDRESS]"],
-              ["hours", "Hours", "Mon–Sat: 9AM – 7PM"],
+              ["email", "Email", "admin@theredacademy.in"],
+              ["hours", "Days&Hours", "Mon–Sat: 9AM – 7PM"],
             ].map(([seed, label, val]) => (
               <div key={label} className="flex items-start gap-4">
                 <div className="w-11 h-11 rounded-2xl overflow-hidden flex-shrink-0 shadow-md">
@@ -36,7 +36,7 @@ export function ContactPage() {
                 </div>
               </div>
             ))}
-            <a href="https://maps.google.com/maps?q=Villianur+Puducherry" target="_blank" rel="noreferrer"
+            {/* <a href="https://maps.google.com/maps?q=Villianur+Puducherry" target="_blank" rel="noreferrer"
               className="flex items-center justify-center gap-3 mt-6 rounded-2xl border-2 border-gray-200 hover:border-red-400 transition-all"
               style={{ height: 200, background: 'linear-gradient(135deg,#fef2f2,#fff1f2)', textDecoration: 'none' }}>
               <div className="text-center">
@@ -44,7 +44,7 @@ export function ContactPage() {
                 <p className="font-bold text-gray-700 text-sm">View on Google Maps</p>
                 <p className="text-xs text-gray-400 mt-1">Villianur, Puducherry</p>
               </div>
-            </a>
+            </a> */}
           </div>
           <div className="lg:col-span-3 bg-gray-50 rounded-3xl p-8">
             {sent ? (

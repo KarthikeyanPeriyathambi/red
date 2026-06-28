@@ -38,9 +38,9 @@ export function WhyUsPage({ go }) {
           <div className="absolute inset-0 opacity-10" style={{backgroundImage:"radial-gradient(circle at 20% 80%,white,transparent)"}} />
           <h3 className="relative text-3xl font-black mb-4">Ready to Start?</h3>
           <p className="relative text-red-100 text-lg mb-8 max-w-md mx-auto">Free consultation. No commitment. Let's talk about what you need.</p>
-          <button onClick={()=>go("Contact")} className="bg-white text-red-600 font-black px-8 py-4 rounded-2xl hover:bg-gray-100 transition-all shadow-xl">
+          {/* <button onClick={()=>go("Contact")} className="bg-white text-red-600 font-black px-8 py-4 rounded-2xl hover:bg-gray-100 transition-all shadow-xl">
             Book Free Consultation →
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

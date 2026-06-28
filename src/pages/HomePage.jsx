@@ -92,7 +92,7 @@ export function HomePage({ go, setSelected }) {
           <div className="text-center mb-14">
             <span className="inline-block bg-red-50 text-red-600 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-widest mb-3">What We Do</span>
             <h2 className="text-3xl sm:text-4xl font-black text-gray-900">Our Core Services</h2>
-            <p className="text-gray-500 mt-3 max-w-lg mx-auto">End-to-end digital solutions from design to deployment and beyond.</p>
+            <p className="text-gray-500 mt-3 max-w-lg mx-auto">End-to-End digital solutions from design to deployment and beyond.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {SERVICES.slice(0,4).map((s,i) => (
@@ -224,9 +224,9 @@ export function HomePage({ go, setSelected }) {
             <h2 className="text-3xl font-black text-white">Transparent Packages</h2>
             <p className="text-gray-500 mt-2">No hidden costs. Pick the plan that fits.</p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 items-center">
+          <div className=" gap-6 items-center flex w-full justify-center ">
             {PACKAGES.map(pkg=>(
-              <div key={pkg.name} className={`rounded-3xl p-7 relative transition-all hover:scale-[1.02] ${pkg.popular?"bg-red-600 text-white ring-4 ring-red-400/50 shadow-2xl shadow-red-900/40":"bg-gray-900 text-gray-300 border border-gray-800"}`}>
+              <div key={pkg.name} className={` rounded-3xl p-7 relative max-w-md w-full transition-all hover:scale-[1.02] ${pkg.popular?"bg-red-600 text-white ring-4 ring-red-400/50 shadow-2xl shadow-red-900/40":"bg-gray-900 text-gray-300 border border-gray-800"}`}>
                 {pkg.popular && <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-yellow-900 text-xs font-black px-4 py-1.5 rounded-full shadow-lg">⭐ MOST POPULAR</div>}
                 <p className={`text-sm font-bold uppercase tracking-widest mb-1 ${pkg.popular?"text-red-200":"text-gray-500"}`}>{pkg.name}</p>
                 <p className={`text-xs font-semibold mb-2 ${pkg.popular?"text-red-200":"text-gray-500"}`}>{pkg.sub}</p>
