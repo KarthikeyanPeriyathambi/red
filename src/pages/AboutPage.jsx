@@ -4,7 +4,7 @@ import { Counter, Illustration, ParticlesBg } from "../../the-red-academy.jsx";
 export function AboutPage({ go }) {
   return (
     <div>
-      <div className="relative py-28 text-center overflow-hidden" style={{background:"linear-gradient(135deg,#090909,#1a0000)"}}>
+      <div className="relative py-28 text-center overflow-hidden" style={{ background: "linear-gradient(135deg,#090909,#1a0000)" }}>
         <ParticlesBg />
         <div className="relative z-10 max-w-3xl mx-auto px-4">
           <p className="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Who We Are</p>
@@ -19,7 +19,7 @@ export function AboutPage({ go }) {
             <p className="text-gray-600 leading-relaxed mb-4">Founded with a passion for technology and creativity, The Red Academy has grown into a trusted digital partner for businesses across India. We combine clean code, sharp design, and data-driven marketing to deliver work that performs — not just looks good.</p>
             <p className="text-gray-600 leading-relaxed mb-8">From our base in Puducherry, we serve clients across India and internationally, bringing big-agency quality to every project at a price that makes sense for growing businesses.</p>
             <div className="grid grid-cols-3 gap-4">
-              {[["50","Projects"],["5","Years"],["30","Clients"]].map(([n,l])=>(
+              {[["25", "Projects"], ["2", "Years"], ["20", "Clients"]].map(([n, l]) => (
                 <div key={l} className="bg-red-50 rounded-2xl p-5 text-center border border-red-100">
                   <p className="text-3xl font-black text-red-600"><Counter target={parseInt(n)} suffix="+" /></p>
                   <p className="text-xs text-gray-500 mt-1 font-semibold">{l}</p>
@@ -45,11 +45,11 @@ export function AboutPage({ go }) {
           <h3 className="text-2xl font-black text-gray-900 mb-8 text-center">Our Values</h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
-              ["about1","Transparency","Honest pricing, clear timelines, no surprises."],
-              ["about2","Speed","We move fast without cutting corners."],
-              ["about3","Quality","Every pixel and line of code is crafted with care."],
-              ["about4","Partnership","We're invested in your long-term success."],
-            ].map(([seed,t,d])=>(
+              ["about1", "Transparency", "Honest pricing, clear timelines, no surprises."],
+              ["about2", "Speed", "We move fast without cutting corners."],
+              ["about3", "Quality", "Every pixel and line of code is crafted with care."],
+              ["about4", "Partnership", "We're invested in your long-term success."],
+            ].map(([seed, t, d]) => (
               <div key={t} className="text-center group">
                 <div className="w-16 h-16 rounded-2xl overflow-hidden mx-auto mb-3 shadow-md group-hover:scale-105 transition-transform">
                   <Illustration seed={seed} ih={64} iw={64} radius={12} />
