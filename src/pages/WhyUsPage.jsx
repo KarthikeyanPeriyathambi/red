@@ -27,7 +27,7 @@ export function WhyUsPage({ go }) {
           ))}
         </div>
         <div className="bg-gray-950 rounded-3xl p-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {[["25", "Projects Delivered"], ["20", "Happy Clients"], ["2", "Years Experience"], ["100", "On-Time Delivery"]].map(([n, l]) => (
+          {[["25", "Projects Delivered"], ["20", "Happy Clients"], ["03", "Years Experience"], ["100", "On-Time Delivery"]].map(([n, l]) => (
             <div key={l} className="text-center">
               <p className="text-4xl font-black text-red-400"><Counter target={parseInt(n)} suffix="+" /></p>
               <p className="text-sm text-gray-500 mt-1">{l}</p>

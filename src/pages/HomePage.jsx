@@ -65,7 +65,7 @@ export function HomePage({ go, setSelected }) {
         {/* Stats bar */}
         <div className="absolute bottom-0 left-0 right-0 glass border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-4">
-            {[["25+", "Projects Delivered"], ["2+", "Years Experience"], ["03+", "Happy Clients"], ["100%", "Client Satisfaction"]].map(([n, l], i) => (
+            {[["25+", "Projects Delivered"], ["03+", "Years Experience"], ["20+", "Happy Clients"], ["100%", "Client Satisfaction"]].map(([n, l], i) => (
               <div key={l} className={`py-5 text-center ${i < 3 ? "border-r border-white/10" : ""}`}>
                 <p className="text-2xl font-black text-red-400">{n}</p>
                 <p className="text-xs text-gray-500 mt-0.5">{l}</p>
@@ -147,7 +147,7 @@ export function HomePage({ go, setSelected }) {
               <PhoneMockup screen={PROJECT_SCREENS[phoneIdx]} onClick={() => { }} />
             </div>
             <div className="flex-1 grid grid-cols-2 gap-4 max-w-xs">
-              {[["12+", "Apps Built"], ["99%", "Uptime SLA"], ["40%", "Avg. Conversion Lift"], ["24h", "Support Response"]].map(([n, l]) => (
+              {[["03+", "Apps Built"], ["99%", "Uptime SLA"], ["40%", "Avg. Conversion Lift"], ["24h", "Support Response"]].map(([n, l]) => (
                 <div key={l} className="glass rounded-2xl p-5 text-center hover:bg-white/10 transition-colors">
                   <p className="text-2xl font-black text-red-400 mb-1">{n}</p>
                   <p className="text-xs text-gray-400">{l}</p>

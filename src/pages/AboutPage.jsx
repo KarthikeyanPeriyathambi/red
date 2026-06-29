@@ -19,7 +19,7 @@ export function AboutPage({ go }) {
             <p className="text-gray-600 leading-relaxed mb-4">Founded with a passion for technology and creativity, The Red Academy has grown into a trusted digital partner for businesses across India. We combine clean code, sharp design, and data-driven marketing to deliver work that performs — not just looks good.</p>
             <p className="text-gray-600 leading-relaxed mb-8">From our base in Puducherry, we serve clients across India and internationally, bringing big-agency quality to every project at a price that makes sense for growing businesses.</p>
             <div className="grid grid-cols-3 gap-4">
-              {[["25", "Projects"], ["2", "Years"], ["20", "Clients"]].map(([n, l]) => (
+              {[["25", "Projects"], ["03", "Years"], ["20", "Clients"]].map(([n, l]) => (
                 <div key={l} className="bg-red-50 rounded-2xl p-5 text-center border border-red-100">
                   <p className="text-3xl font-black text-red-600"><Counter target={parseInt(n)} suffix="+" /></p>
                   <p className="text-xs text-gray-500 mt-1 font-semibold">{l}</p>

@@ -142,7 +142,7 @@ export const PROJECTS = [
   { name: "Cloud Staffing Services", industry: "Home Services", features: ["Service Showcase", "Cleaning Packages", "Lead Form", "Brand Design"], color: "#1e3a8a", bg: "#eff6ff", img: "css", url: "https://cloud-staffing-services.vercel.app/" },
   { name: "CloudBees Products", industry: "IT / SaaS", features: ["CRM Showcase", "ERP Products", "Mobile + Desktop", "Feature Bullets"], color: "#92400e", bg: "#fef9c3", img: "cb_products", url: "https://cloudbeestech.com" },
   { name: "CbeezAI ERP & CRM", industry: "AI / SaaS", features: ["Multi-tenant ERP", "AI Chat", "WhatsApp Integration", "Sales & HR"], color: "#111827", bg: "#f3f4f6", img: "cbeezai", url: "https://cbeezai.com" },
-  { name: "Bees2Ventures", industry: "Tech Training", features: ["DevOps Courses", "Tech Solutions", "Find Out More", "Blue Gradient UI"], color: "#1d4ed8", bg: "#eff6ff", img: "bees2v", url: "https://bees2ventures.com" },
+  { name: "Bees2Ventures", industry: "Tech Training", features: ["DevOps Courses", "Tech Solutions", "Find Out More", "Blue Gradient UI"], color: "#1d4ed8", bg: "#eff6ff", img: "bees2v", url: "https://b2vtech.com" },
   { name: "Jeevan Baby Care", industry: "Healthcare App", features: ["Book Appointment", "Vaccination Guide", "Know My Doctors", "Parent Portal"], color: "#7c3aed", bg: "#faf5ff", img: "jeevan" },
 ];
 
